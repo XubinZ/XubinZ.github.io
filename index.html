@@ -41,7 +41,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm interested in computer vision, machine learning, human-object interaction detection, and object detection. Representative papers are below.
+                I'm interested in computer vision, machine learning, <strong>human-object interaction detection</strong>, and object detection. Representative papers are listed below.
               </p>
             </td>
           </tr>
@@ -86,8 +86,50 @@
               </p>
             </td>
           </tr>
-					
-			    <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()" >
+		
+<tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()" >
+			      <td style="padding:20px;width:25%;vertical-align:middle">
+			        <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/DOQ.png' width="180"></div>
+                <img src='images/DOQ.png' width="180">
+              </div>
+			        <script type="text/javascript">
+			          function refnerf_start() {
+			            document.getElementById('refnerf_image').style.opacity = "1";
+			          }
+
+			          function refnerf_stop() {
+			            document.getElementById('refnerf_image').style.opacity = "0";
+			          }
+			          refnerf_stop()
+			        </script>
+			      </td>
+			            <td style="padding:20px;width:75%;vertical-align:middle">
+			          <a href="">
+			            <papertitle>Distillation Using Oracle Queries for Transformer-based Human-Object
+Interaction Detection</papertitle>
+			          </a>
+			          <br>
+			         
+				  <a href="https://scholar.google.com/citations?user=c1R36S0AAAAJ&hl=zh-CN">Xian Qu</a>,
+				  <a href="https://scholar.google.com/citations?user=8Z8jplgAAAAJ&hl=zh-CN">Changxing Ding</a>, 
+				  <a href="https://github.com/xingaoli">Xingao Li</a>, 
+				  <strong>Xubin Zhong</strong>,
+			          <a href="https://scholar.google.com/citations?user=RwlJNLcAAAAJ&hl=zh-CN/">Dacheng Tao</a>
+			          <br>
+			    <em>CVPR</em>, 2022 &nbsp
+			          <br>
+			          <a href="https://github.com/SherlockHolmes221/DOQ">project page</a>
+			    /
+			     
+			          <p></p>
+			          <p> We propose an
+efficient knowledge distillation model, named Distillation
+using Oracle Queries (DOQ), which shares parameters between teacher and student networks</p>
+			        </td>
+			      </tr>
+    <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()" >
 			      <td style="padding:20px;width:25%;vertical-align:middle">
 			        <div class="one">
                 <div class="two" id='malle_image'>
@@ -125,7 +167,7 @@ Interaction Detection</papertitle>
 			          <p></p>
 			          <p> We propose a novel one-stage method, namely Glance and Gaze
 Network (GGNet), which adaptively models a set of action-
-aware points (ActPoints) via glance and gaze steps..</p>
+aware points (ActPoints) via glance and gaze steps.</p>
 			        </td>
 			      </tr>
 	 <tr onmouseout="refnerf_stop()" onmouseover="refnerf_start()" >
